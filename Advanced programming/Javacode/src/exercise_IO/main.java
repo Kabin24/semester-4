@@ -1,14 +1,19 @@
 package exercise_IO;
 
 import java.util.Scanner;
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class main {
 
     public static void main(String[] args) throws Exception {
         java.io.File file = new java.io.File("saving_data.txt");
-        savingAccount sa1 =null;
+
+
 
         Scanner sc = new Scanner(file);
+        savingAccount sa1 =null;
+        ArrayList<savingAccount> accounts =new ArrayList<>();
         while (sc.hasNext()){
             String BankAlc = sc.next();
             double Balance =sc.nextDouble();

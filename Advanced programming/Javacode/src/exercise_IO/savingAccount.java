@@ -1,7 +1,7 @@
 package exercise_IO;
 
 // extends - inheritance -- single inheritance
-public class savingAccount extends week3lab.superBankClass {
+public class savingAccount extends superBankClass {
     double interest;
     double CalAmt;
 
