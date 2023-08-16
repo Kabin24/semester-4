@@ -1,7 +1,7 @@
 package week3lab;
 
 // extends - inheritance -- single inheritance
-public class SavingAccount extends week3lab.superBankClass {
+public class SavingAccount extends week3lab.SuperBankClass {
     double interest;
     double CalAmt;
 

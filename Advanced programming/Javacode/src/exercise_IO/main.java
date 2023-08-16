@@ -1,5 +1,7 @@
 package exercise_IO;
 
+
+
 import java.util.Scanner;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -7,20 +9,6 @@ import java.util.ArrayList;
 public class main {
 
     public static void main(String[] args) throws Exception {
-        java.io.File file = new java.io.File("saving_data.txt");
-
-
-
-        Scanner sc = new Scanner(file);
-        savingAccount sa1 =null;
-        ArrayList<savingAccount> accounts =new ArrayList<>();
-        while (sc.hasNext()){
-            String BankAlc = sc.next();
-            double Balance =sc.nextDouble();
-            double interest = sc.nextDouble();
-            sa1 = new savingAccount(BankAlc,Balance,interest);
-
-        }
 
 
 //        //Instant create
@@ -43,12 +31,51 @@ public class main {
 //        displayAccount(ca2);
 //        SavingAccount sa3 = new SavingAccount("010003",1000.00);
 //        displayAccount(sa3);
-        //2
+
+
+
+        java.io.File file = new java.io.File("C:\\Users\\kabin\\OneDrive\\Desktop\\semester-4\\Advanced programming\\Javacode\\src\\exercise_IO\\saving_data.txt");
+
+        /// saving account
+        Scanner sc = new Scanner(file);
+        savingAccount sa1 =null;
+        ArrayList<savingAccount> accounts =new ArrayList<>();
+        while (sc.hasNext()){
+            String BankAlc = sc.next();
+            double Balance =sc.nextDouble();
+            double interest = sc.nextDouble();
+            sa1 = new savingAccount(BankAlc,Balance,interest);
+            accounts.add(sa1);
+
+        }
+        for(savingAccount sav :accounts){
+            sav.DepositeWithInterest(500);
+            sav.DisplayAllGivenAccount();
+        }
     }
+        //  Current acccount
+        java.io.File file2 = new java.io.File("C:\\Users\\kabin\\OneDrive\\Desktop\\semester-4\\Advanced programming\\Javacode\\src\\exercise_IO\\Current_data.txt");
+        Scanner ca = new Scanner(file2);
+        currentAccount savAlc1 = null;
+        ArrayList<   currentAccount> accounts1 = new ArrayList();
 
-//    private static void displayAccount(week3lab.superBankClass value) {
-//
-//        value.DisplayAllGivenAccount();
-//    }
+        while (ca.hasNext()) {
+            String BankAlc = ca.next();
+            double Balance = ca.nextDouble();
+            double Interest = ca.nextDouble();
 
+            savAlc1 = new    currentAccount(BankAlc, Balance, Interest);
+            accounts1.add(savAlc1);
+
+        }
+        for (   currentAccount ca2 : ca_accounts) {
+          ca2.DisplayAllGivenAccount();
+        }
+
+        private static void displayAccount (superBankClass value){
+
+            value.DisplayAllGivenAccount();
+        }
+
+    }
 }
