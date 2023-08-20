@@ -1,5 +1,4 @@
 package Week03Tutorial;
-
 public class EmployeeThree {
     private String name;
     private double salary;
@@ -9,7 +8,6 @@ public class EmployeeThree {
         salary = s;
         status = true;
     }
-
     public double getSalary() {
         return salary;
     }

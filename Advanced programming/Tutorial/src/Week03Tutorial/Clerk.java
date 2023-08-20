@@ -8,14 +8,14 @@ public class Clerk extends EmployeeThree{
          yearborn =y;
          Cola =c;
      }
-public int getYearborn(){
+public int getcola(){
          return (2014-yearborn);
 }
 
 
     public void displayDetail() {
         super.displayDetail();
-        System.out.println("AGE :" +getYearborn());
+        System.out.println("AGE :" +getcola());
         System.out.println("COLA  :" +"RM"+Cola);
     }
 }
