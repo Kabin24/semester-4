@@ -6,14 +6,7 @@ public class arraylist_ex {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<>();
 
-        // .get(index)
-        // .set(index, "name")
-        // .size() - return size
-        // .add("")
-        // .add(index, "")
-        // .remove("index")
-        // .remove(Object)
-        // list.clear()
+
 
         cars.add("BMW");
         cars.add("Audi");

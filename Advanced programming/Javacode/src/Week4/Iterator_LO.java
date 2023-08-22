@@ -28,7 +28,7 @@ public class Iterator_LO {
             cars.add("Audi");
             cars.add("Toyota");
             cars.add("Tesla");
-            cars.add("fafafdsfsf");
+            cars.add("amog");
 
             Iterator<String> it = cars.iterator();
             // print first item

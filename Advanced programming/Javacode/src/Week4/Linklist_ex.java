@@ -4,14 +4,14 @@ import java.util.LinkedList;
 
 public class Linklist_ex {
     public static void main(String[] args) {
-        LinkedList<String> food = new LinkedList<>();
+        LinkedList<String> Bike= new LinkedList<>();
 
-        food.add("Pizza");
-        food.add("Burger");
-        food.add("Noodles");
+        Bike.add("BMW");
+        Bike.add("Honda");
+        Bike.add("Yamaha");
 
 
-        System.out.println(food);
+        System.out.println(Bike);
 
 }
     }
