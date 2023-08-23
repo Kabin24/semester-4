@@ -1,6 +1,6 @@
 package Week4_practicleinterface;
 
-public class Aircraft  extends Vehicle implements Interface.Engine,Interface.WheelSystem,Interface.FlightSystem {
+public class Aircraft  extends Vehicle implements Interface.Engine,Interface.WheelSystem,Interface.FlightSystem ,Interface.Registration{
     public Aircraft(String t,int s){
         super(t,s);
     }
@@ -12,5 +12,8 @@ public class Aircraft  extends Vehicle implements Interface.Engine,Interface.Whe
     }
     public void displayMaxAltitude(){
         System.out.println("Aircraft altitude is 15000m");
+    }
+    public void displayRegistrationNumber(){
+        System.out.println("Aircraft registration number:3098bG");
     }
 }

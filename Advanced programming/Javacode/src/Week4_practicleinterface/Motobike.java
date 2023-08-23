@@ -1,6 +1,6 @@
 package Week4_practicleinterface;
 
-public class Motobike extends Vehicle implements Interface.Engine, Interface.WheelSystem {
+public class Motobike extends Vehicle implements Interface.Engine, Interface.WheelSystem,Interface.Registration {
     public Motobike(String t, int s) {
         super(t, s);
     }
@@ -9,6 +9,9 @@ public class Motobike extends Vehicle implements Interface.Engine, Interface.Whe
     }
     public void displayToWheel() {
         System.out.println("Motobike has 2 wheels");
+    }
+    public void displayRegistrationNumber(){
+        System.out.println("Motobike registration number:Ba23ko");
     }
 
 }

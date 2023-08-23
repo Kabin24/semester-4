@@ -6,6 +6,7 @@ public class MyTransport {
         Bicycle b = new Bicycle("land",20);
         Motobike mb = new Motobike("land",200);
         Aircraft a = new Aircraft("air",1000);
+        Glider G = new Glider("air",300);
 
         js.startEngine();
         b.displayToWheel();
@@ -14,5 +15,11 @@ public class MyTransport {
         a.startEngine();
         a.displayToWheel();
         a.displayMaxAltitude();
+        G.displayMaxAltitude();
+        G.displayToWheel();
+        /// to display  Registration
+        a.displayRegistrationNumber(); // Call Registration method for Aircraft
+        mb.displayRegistrationNumber(); // call
+
     }
 }

@@ -13,5 +13,8 @@ public class Interface {
     public interface Engine {
         public void startEngine();
     }
+    public interface Registration{
+        public void displayRegistrationNumber();
+    }
 
 }
