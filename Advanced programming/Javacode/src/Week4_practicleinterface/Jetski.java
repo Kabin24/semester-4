@@ -1,4 +1,4 @@
-package Week4_lab;
+package Week4_practicleinterface;
 
 public class Jetski extends Vehicle implements Interface.Engine{
     public Jetski(String t, int s) {

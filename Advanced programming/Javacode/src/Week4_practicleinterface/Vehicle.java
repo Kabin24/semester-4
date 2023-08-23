@@ -1,4 +1,4 @@
-package Week4_lab;
+package Week4_practicleinterface;
 
 public class Vehicle {
     private String type;

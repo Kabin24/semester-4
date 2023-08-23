@@ -1,4 +1,4 @@
-package Week4_lab;
+package Week4_practicleinterface;
 
 public class Interface {
     //Interface 1 – Wheel system

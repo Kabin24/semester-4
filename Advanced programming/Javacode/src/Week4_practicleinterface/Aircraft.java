@@ -1,4 +1,4 @@
-package Week4_lab;
+package Week4_practicleinterface;
 
 public class Aircraft  extends Vehicle implements Interface.Engine,Interface.WheelSystem,Interface.FlightSystem {
     public Aircraft(String t,int s){

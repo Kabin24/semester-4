@@ -1,4 +1,4 @@
-package Week4_lab;
+package Week4_practicleinterface;
 
 public class Bicycle  extends Vehicle implements Interface.WheelSystem {
     public Bicycle(String t, int s){
