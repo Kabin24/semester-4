@@ -1,4 +1,4 @@
-package Week4_practicleinterface;
+package Week4.Week4_practicleinterface;
 
 public class Glider  extends Vehicle  implements Interface.WheelSystem, Interface.FlightSystem{
     public Glider(String t, int s) {

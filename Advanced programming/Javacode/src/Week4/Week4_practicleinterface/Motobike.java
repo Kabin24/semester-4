@@ -1,4 +1,4 @@
-package Week4_practicleinterface;
+package Week4.Week4_practicleinterface;
 
 public class Motobike extends Vehicle implements Interface.Engine, Interface.WheelSystem,Interface.Registration {
     public Motobike(String t, int s) {
