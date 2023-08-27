@@ -1,0 +1,11 @@
+Student_ID,Gender,Age,DSP_Marks,SSM_Marks,AP_Marks,Attendance,Study_Hours,Final_Grade,Parent_Income,Extracurricular_Activities
+1,Male,18,75,,85,90,4,NOT GRADED,"NPR50,000 ",Yes
+2,Female,17,82,78,,95,3.5,NOT GRADED,"NPR60,000 ",No
+3,Male,19,,70,75,85,2,NOT GRADED,"NPR55,000 ",Yes
+4,Female,18,92,85,88,,5,NOT GRADED,"NPR70,000 ",Yes
+5,Male,20,60,65,70,75,,Low,"NPR45,000 ",No
+6,Female,19,78,,85,92,3,NOT GRADED,"NPR68,000 ",Yes
+7,Male,17,88,92,95,98,4.5,High,"NPR75,000 ",Yes
+8,Male,18,70,75,80,88,,Medium,"NPR58,000 ",No
+9,Female,20,55,60,65,70,1,Low,"NPR42,000 ",Yes
+10,Female,18,95,90,93,96,6,High,"NPR80,000 ",No
