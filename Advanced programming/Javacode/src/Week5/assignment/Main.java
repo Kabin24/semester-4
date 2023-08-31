@@ -41,7 +41,7 @@ public class Main {
 
 
             if(user_input == 0 || user_input>items.length){
-                System.out.println("You entered wrong choice. Reentered...");
+                System.out.println("Invalid item number. Please choose a valid item number.");
                 continue;
             }
 
