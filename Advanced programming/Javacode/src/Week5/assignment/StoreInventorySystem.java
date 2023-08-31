@@ -1,6 +1,8 @@
 package Week5.assignment;
+
 import java.util.HashMap;
 import java.util.Scanner;
+
 public class StoreInventorySystem {
     private HashMap<String, Integer> inventory;
 
