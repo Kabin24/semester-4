@@ -43,12 +43,12 @@ public class Arraylist {
         num.add(45);
         num.add(56);
         num.add(78);
-
+// for loop traditional
         System.out.println(num);
         for ( int i =0; i< num.size();i++){
             System.out.println(num.get(i));
         }
-
+ //  for each lool
         for ( int i : num){
             System.out.println(i);
         }
