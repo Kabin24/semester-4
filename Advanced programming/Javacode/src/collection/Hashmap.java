@@ -1,7 +1,12 @@
 package collection;
+
 import java.security.Key;
 import java.util.HashMap;
+import java.util.Scanner;
+
+
 public class Hashmap {
+
     public static void main(String[] args) {
         HashMap<Integer, String> name = new HashMap<Integer, String>();
 
