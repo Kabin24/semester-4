@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class Hashmap {
 
-    public static void main(String[] args) {
+
 //        HashMap<Integer, String> name = new HashMap<Integer, String>();
 //
 //
@@ -51,16 +51,19 @@ public class Hashmap {
 
 
 /// Creating HashMap from Other Maps
+public static void main(String[] args) {
+    TreeMap<String, Integer> evenNumbers = new TreeMap<>();
+    evenNumbers.put("Two", 2);
+    evenNumbers.put("Four", 4);
+    System.out.println("TreeMap: " + evenNumbers);
 
-        TreeMap<String, Integer> evenNumbers = new TreeMap<>();
-        evenNumbers.put("Two", 2);
-        evenNumbers.put("Four", 4);
-        System.out.println("TreeMap: " + evenNumbers);
 
 
-        Hashmap<String, Integer> numbers = new Hashmap<String,Integer>(evenNumbers);
-        numbers.put("Three", 3);
-        System.out.println("HashMap: " + numbers);
+
+
+        //Hashmap<String, Integer> numbers = new Hashmap<String,Integer>(evenNumbers);
+        //numbers.put("Three", 3);
+       // System.out.println("HashMap: " + numbers);
     }
 }
 
