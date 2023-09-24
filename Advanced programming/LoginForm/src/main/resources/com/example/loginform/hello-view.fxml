@@ -5,16 +5,29 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <TextField disable="true" editable="false" layoutX="235.0" layoutY="35.0" prefHeight="40.0" prefWidth="138.0" text="Calculator">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="372.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
    <opaqueInsets>
       <Insets />
    </opaqueInsets>
+   <children>
+      <Label layoutX="140.0" layoutY="100.0" text="Username" textFill="#e40707">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="143.0" text="Password" textFill="#c90808">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="203.0" layoutY="96.0" />
+      <TextField layoutX="203.0" layoutY="140.0" />
+      <Button layoutX="203.0" layoutY="186.0" mnemonicParsing="false" text="Log In" textFill="#e10a0a" />
+      <Button layoutX="263.0" layoutY="186.0" mnemonicParsing="false" styleClass="radius" text="Sign up" textFill="#bf0b0b" />
+      <Label layoutX="187.0" layoutY="38.0" text="Login Page">
+         <font>
+            <Font name="Arial Black" size="19.0" />
+         </font>
+      </Label>
+   </children>
 </Pane>
