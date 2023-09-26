@@ -64,7 +64,6 @@ cat ("The probability of encountering " ,x,"the people who did not attend  a gam
 library(ggplot2)
 
 
-data <-
 
 
 
