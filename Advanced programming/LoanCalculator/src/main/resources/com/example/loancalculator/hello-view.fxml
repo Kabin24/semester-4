@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="205.0" layoutY="39.0" text="Loan Calculator">
@@ -12,7 +11,7 @@
             <Font name="Arial Black" size="22.0" />
          </font>
       </Label>
-      <Label layoutX="111.0" layoutY="106.0" text="Annual Interest Rate" />
+      <Label layoutX="111.0" layoutY="106.0" text="Annual Interest Rate:" />
       <Label layoutX="111.0" layoutY="163.0" text="Loan Amount:" />
       <Label layoutX="111.0" layoutY="134.0" text="Number of years:" />
       <Label layoutX="111.0" layoutY="192.0" text="Monthly Payment:" />
