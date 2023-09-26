@@ -43,3 +43,21 @@ housing_test <- housing[-idx,]
 # correlation matrix and boxplots
 
 ggcorr(housing_train,label = T ,hjust =1 ,layout.exp = 3)
+boxplot(housing_train$median_house_value)
+
+
+#model fitting let us use linear regression
+model_all <- lm(median_house_value ~ housing_median_age + total_rooms+total_bedrooms + households+ median_income + ocean_proximity,data = housing_train)
+summary(model_all)
+
+#prediction part
+
+housing_test$pred <- predict(model_all,housing_test)
+
+hist(housing_test$pred)
+
+plot(model_all)
+
+library(MLmetrics)
+RMSE(y_pred ) = housing_test$pred  ,y_true = housing_test$median_house_value)
+hist(model_all$residuals)
