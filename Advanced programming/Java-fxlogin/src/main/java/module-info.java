@@ -1,9 +1,9 @@
-module com.example.javafxlogin {
+module com.example.mainlogin {
     requires javafx.controls;
     requires javafx.fxml;
-
-    requires com.dlsc.formsfx;
-
-    opens com.example.javafxlogin to javafx.fxml;
-    exports com.example.javafxlogin;
+    requires java.sql;
+            requires com.dlsc.formsfx;
+                        
+    opens com.example.mainlogin to javafx.fxml;
+    exports com.example.mainlogin;
 }
